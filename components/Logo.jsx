@@ -2,10 +2,7 @@ import Link from "next/link";
 
 const Logo = () => {
   return (
-    <Link
-      href="/"
-      className="relative hover:text-primary transition:-all font-thin text-xl"
-    >
+    <Link href="/" className="relative font-light text-xl text-orange-400">
       Tahsan Shakil
     </Link>
   );
